@@ -1,0 +1,27 @@
+<div id="<%= dom_id country %>">
+  <p>
+    <strong>Name:</strong>
+    <%= country.name %>
+  </p>
+
+  <p>
+    <strong>Area:</strong>
+    <%= country.area %>
+  </p>
+
+  <p>
+    <strong>Population:</strong>
+    <%= country.population %>
+  </p>
+
+  <p>
+    <strong>Continent:</strong>
+    <%= country.continent %>
+  </p>
+
+  <p>
+    <strong>City:</strong>
+    <%= country&.city&.name %>
+  </p>
+
+</div>
